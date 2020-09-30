@@ -820,22 +820,16 @@ footer{
         max-width: 100% !important;
         height: auto !important;
         align-self: flex-start !important;
-
-        border: 2px solid red;
     }
 
-    .logotipo,
     .img-nucleo-1,
-    .img-nucleo-2,
-    .imagens-s5,
-    .imagens-s6-1,
-    .imagens-s6-2,
-    .imagens-s6-3,
-    .imagens-s7-1,
-    .imagens-s7-2,
-    .imagens-s8-1,
-    .imagens-s8-2{
-        border: 2px solid black;
+    .img-nucleo-2{
+        margin-bottom: 0 !important;
+    }
+
+    .paragrafos-s2,
+    .paragrafos-s3{
+        margin-top: 30px !important;
     }
 
     /* Section 5 */
