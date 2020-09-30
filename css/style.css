@@ -771,6 +771,10 @@ footer{
 @media (max-width: 768px){
     /* Textos */
 
+    .lema{
+        padding: 0 20px !important;
+    }
+
     .paragrafos-s2,
     .paragrafos-s3,
     .paragrafos-s5,
@@ -839,6 +843,23 @@ footer{
     .bg-p-1 p,
     .bg-p-2 p{
         color: var(--preto) !important;
+    }
+}
+
+/* iPhone */
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
+    .imagens-s6-1 img,
+    .imagens-s6-2 img,
+    .imagens-s6-3 img,
+    .imagens-s7-1 img,
+    .imagens-s7-2 img,
+    .imagens-s8-1 img,
+    .imagens-s8-2 img{
+        height: auto !important;
+        width: 50% !important;
     }
 }
 
