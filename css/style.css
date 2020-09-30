@@ -817,8 +817,9 @@ footer{
     .imagens-s7-2 img,
     .imagens-s8-1 img,
     .imagens-s8-2 img{
-        object-fit: contain !important;
-        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+        align-self: flex-start !important;
     }
 
     /* Section 5 */
